@@ -36,17 +36,14 @@ pip install python-evtx rich pydantic
 💻 Usage
 Run the triage engine against sample logs:
 python triage.py
-📊 Example Output:
+## 📊 Example Output
 [*] Analyzing log file: sample_auth.log
 [+] Scanned 5 log lines successfully.
 
- 🚨 Security Alert: Potential Brute-Force Sources 
-┏━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━┓
-┃ Source IP     ┃ Failed Count ┃ Risk Level ┃
-┡━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━━━┩
-│ 192.168.1.100 │            3 │    WARNING │
-│ 45.33.22.11   │            1 │        LOW │
-└───────────────┴──────────────┴────────────┘
+Source IP       Failed Count    Risk Level
+-------------   ------------    ----------
+192.168.1.100   3               WARNING
+45.33.22.11     1               LOW
 
 👨‍💻 Author
 Muhammad Ahmad Hassan Khan
