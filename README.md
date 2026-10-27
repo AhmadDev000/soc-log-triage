@@ -40,10 +40,10 @@ python triage.py
 [*] Analyzing log file: sample_auth.log
 [+] Scanned 5 log lines successfully.
 
-Source IP       Failed Count    Risk Level
--------------   ------------    ----------
-192.168.1.100   3               WARNING
-45.33.22.11     1               LOW
+| Source IP | Failed Count | Risk Level |
+| :--- | :---: | :---: |
+| `192.168.1.100` | 3 | ⚠️ WARNING |
+| `45.33.22.11` | 1 | 🟢 LOW |
 
 👨‍💻 Author
 Muhammad Ahmad Hassan Khan
