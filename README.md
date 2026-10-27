@@ -38,6 +38,7 @@ Run the triage engine against sample logs:
 python triage.py
 ## 📊 Example Output
 [*] Analyzing log file: sample_auth.log
+
 [+] Scanned 5 log lines successfully.
 
 | Source IP | Failed Count | Risk Level |
